@@ -1,111 +1,54 @@
-# 📊 Excel Learning Journey – Day 1 to Day 13
+# 📊 My Data Analytics Learning Journey
 
-This repository contains my **13-day Excel learning journey**, starting from the basics and gradually moving towards formulas, data analysis, datasets, Pivot Tables, and data visualization.
+I started with a simple question in Excel: how do I turn a student's marks into a grade? Over 31 days, I moved from spreadsheet formulas to SQL queries, Python analysis, and interactive dashboards. This repository contains the notes, practice files, and projects I created along the way.
 
----
+## 📅 What I learned
 
-## 📅 Day 1 – IIoT & Data Analytics
-- Introduction to IIoT
-- Introduction to Data Analytics
-- Importance of data in analysis and decision-making
+### Days 1–13 · Excel and data analytics
 
-## 📅 Day 2 – Introduction to Excel
-- Excel basics
-- Rows, Columns & Cells
-- Tables
-- Basic calculations and formulas
+- **Days 1–3:** Explored IIoT and data analytics, learned Excel basics, and built a student marksheet with totals, averages, and percentages.
+- **Days 4–6:** Used conditional formatting to highlight marks and `IF` and `IFS` to assign grades.
+- **Days 7–10:** Cleaned text with `TRIM`, worked with dates, calculated conditional totals with `SUMIFS`, and matched records using `VLOOKUP`.
+- **Days 11–13:** Explored datasets on Kaggle, compared chart types, and used Pivot Tables to summarize data for an Excel dashboard.
 
-## 📅 Day 3 – Student Marksheet
-- Created a Student Marksheet
-- Total, Average & Percentage
-- Practiced `SUM()`, `AVERAGE()`, `MIN()`, `MAX()`
+### Days 14–20 · MySQL and Python connectivity
 
-## 📅 Day 4 – Conditional Formatting
-- Applied Conditional Formatting
-- Highlighted data based on conditions
-- Improved data readability
+- Created a database with multiple tables and practiced applying SQL constraints.
+- Wrote salary queries, grouped records using `GROUP BY`, and worked with an e-commerce table.
+- Connected a Jupyter notebook to MySQL using `mysql.connector`.
 
-## 📅 Day 5 – Basic Excel Functions
-Practiced:
+### Days 21–26 · NumPy and pandas
 
-`AVERAGE()` | `MIN()` | `MAX()` | `COUNT()` | `COUNTA()` | `RANDBETWEEN()`
+- Combined and transposed NumPy arrays and calculated summary statistics.
+- Used NumPy and Pillow to explore how an image can be represented as an array.
+- Created pandas Series and DataFrames, loaded CSV and Excel files, and practiced cleaning data.
 
-## 📅 Day 6 – IF & IFS Functions
-- Created a Student Report Card
-- Pass/Fail conditions
-- Grade calculation
-- Practiced `IF()` and `IFS()`
+### Days 27–29 · Power BI
 
-## 📅 Day 7 – Text Functions
-Learned basic text manipulation using:
+- Learned Power BI fundamentals and practiced writing DAX calculations.
+- Built a Bollywood movies dashboard to bring the analysis together in an interactive report.
 
-`TRIM()` | `UPPER()` | `LOWER()` | `PROPER()`
+### Days 30–31 · Matplotlib and Seaborn
 
-## 📅 Day 8 – Date & Time Functions
-Worked with dates and time using:
+- Used histograms and box plots to explore distributions.
+- Used scatter plots to examine relationships and line plots to show trends.
+- Practiced building and labeling charts in Jupyter notebooks.
 
-`TODAY()` | `NOW()` | `DATE()` | `MONTH()` | `YEAR()`
+## 📂 Explore my work
 
-## 📅 Day 9 – Conditional Functions
-Practiced condition-based data analysis using:
+| Day | Practice file |
+| --- | --- |
+| 13 | [Excel Dashboard](./Day%2013-%20Making%20of%20dashboard..xlsx) |
+| 18 | [MySQL GROUP BY Queries](./Day%2018%20mysql%205%20Group%20by.sql) |
+| 23 | [NumPy Image Project](./Day%2023%28DA%20Image%20Project%20on%20Numpy%29.ipynb) |
+| 26 | [pandas Data Cleaning Notebook](./Day%2026%20%28Pandas%20data%20cleaning%20practice%29.ipynb) |
+| 29 | [Power BI Bollywood Movies Dashboard](./Day%2029-%20Power%20BI%20%28Bollywood%20movies%20analysis%20Dashboard%29.pbix) |
+| 30 | [Matplotlib Charts Notebook](./Day%2030%20%28Matplotlib%29.ipynb) |
 
-`COUNTIF()` | `COUNTIFS()` | `SUMIF()` | `SUMIFS()` | `AVERAGEIF()`
+You can read the notebooks and SQL queries directly on GitHub. To explore the dashboards, download the Excel workbook or open the `.pbix` report in Power BI Desktop.
 
-## 📅 Day 10 – Lookup Functions
-Learned how to retrieve information from datasets using:
+## 🛒 Where I applied these skills
 
-`VLOOKUP()`
+In our **E Commerce Business Intelligence Platform** project, we analyzed the same dataset using Excel, Python, and Power BI. The dashboards explore sales trends, customer behavior, product performance, and profitability.
 
-## 📅 Day 11 – Dataset & Kaggle
-- Understanding datasets
-- Dataset formats: CSV, Excel, JSON, SQL & ZIP
-- Finding and downloading datasets from Kaggle
-- Checking missing values, duplicates and data types
-
-### Basic Workflow
-`Find → Download → Understand → Clean → Analyze → Visualize`
-
-## 📅 Day 12 – Data Visualization & Charts
-- Introduction to Excel Charts
-- Understanding which chart to use for different types of data
-- Practiced different chart types
-
-### Charts Covered
-`Column` | `Bar` | `Line` | `Pie` | `Doughnut` | `Scatter` | `Histogram` | `Pareto` | `Waterfall` | `Funnel` | `Treemap` | `Combo` | `Sparklines`
-
-## 📅 Day 13 – Pivot Tables & Data Analysis
-- Created Pivot Tables
-- Summarized and analyzed datasets
-- Used Pivot Tables for data comparison
-- Prepared summarized data for visualization and dashboard creation
-
----
-
-## 🛠️ Skills Learned
-
-- Excel Fundamentals
-- Formulas & Functions
-- Conditional Formatting
-- Text & Date Functions
-- Logical & Conditional Functions
-- Lookup Functions
-- Dataset Handling
-- Kaggle
-- Pivot Tables
-- Data Visualization
-- Excel Charts
-
----
-
-## 📈 Learning Progress
-
-`Excel Basics → Formulas → Data Handling → Analysis → Datasets → Pivot Tables → Visualization`
-
----
-
-
-### 🙌 About This Repository
-
-A record of my **13-day Excel learning journey**, focused on learning through practical exercises and gradually moving from basic Excel operations to data analysis and visualization.
-
-**Learn → Practice → Analyze → Visualize**
+[Explore the E Commerce Business Intelligence Platform →](https://github.com/ravigangwar083-source/Data-Analytics-Major-Project)
